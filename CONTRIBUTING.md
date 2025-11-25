@@ -11,8 +11,8 @@ Fork the repository to your own GitHub account by clicking the "Fork" button at 
 ### 2. Clone Your Fork
 
 ```bash
-git clone https://github.com/yourusername/webdev-mgmt.git
-cd webdev-mgmt
+git clone https://github.com/yourusername/LinuxDev-Manager.git
+cd LinuxDev-Manager
 ```
 
 ### 3. Create a Feature Branch
@@ -83,8 +83,8 @@ git push origin feature/AmazingFeature
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/webdev-mgmt.git
-cd webdev-mgmt
+git clone https://github.com/yourusername/LinuxDev-Manager.git
+cd LinuxDev-Manager
 
 # Install dependencies
 pip3 install -r requirements.txt
@@ -109,7 +109,7 @@ Before submitting a PR, please test:
 ## 📁 Code Structure
 
 ```
-webdev-mgmt/
+LinuxDev-Manager/
 ├── assets/           # Application icons
 ├── config/          # Configuration files
 │   ├── app_config.json
@@ -260,8 +260,8 @@ Contributors will be:
 
 Need help contributing?
 
-- Open a [Discussion](https://github.com/x0r909/webdev-mgmt/discussions)
-- Check existing [Issues](https://github.com/x0r909/webdev-mgmt/issues)
+- Open a [Discussion](https://github.com/x0r909/LinuxDev-Manager/discussions)
+- Check existing [Issues](https://github.com/x0r909/LinuxDev-Manager/issues)
 - Review the [README](README.md)
 
 ## 📜 Code of Conduct

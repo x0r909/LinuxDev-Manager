@@ -102,8 +102,8 @@ LinuxDev Manager is a comprehensive GUI application that simplifies web developm
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/x0r909/webdev-mgmt.git
-   cd webdev-mgmt
+   git clone https://github.com/x0r909/LinuxDev-Manager.git
+   cd LinuxDev-Manager
    ```
 
 2. **Install dependencies**
@@ -383,14 +383,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/x0r909/webdev-mgmt/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/x0r909/webdev-mgmt/discussions)
+- **Issues**: [GitHub Issues](https://github.com/x0r909/LinuxDev-Manager/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/x0r909/LinuxDev-Manager/discussions)
 
 ## 📊 Stats
 
-![GitHub stars](https://img.shields.io/github/stars/x0r909/webdev-mgmt?style=social)
-![GitHub forks](https://img.shields.io/github/forks/x0r909/webdev-mgmt?style=social)
-![GitHub issues](https://img.shields.io/github/issues/x0r909/webdev-mgmt)
+![GitHub stars](https://img.shields.io/github/stars/x0r909/LinuxDev-Manager?style=social)
+![GitHub forks](https://img.shields.io/github/forks/x0r909/LinuxDev-Manager?style=social)
+![GitHub issues](https://img.shields.io/github/issues/x0r909/LinuxDev-Manager)
 
 ## ⭐ Star History
 
