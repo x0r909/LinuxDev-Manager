@@ -368,54 +368,7 @@ python3 verify_icon.py
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-### How to Contribute
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Setup
-
-```bash
-# Clone your fork
-git clone https://github.com/yourusername/webdev-mgmt.git
-cd webdev-mgmt
-
-# Install dependencies
-pip3 install -r requirements.txt
-
-# Run in development mode
-python3 main.py
-
-# Test icons
-python3 test_icons.py
-```
-
-### Code Structure
-
-```
-webdev-mgmt/
-├── assets/           # Application icons
-├── config/          # Configuration files
-├── core/            # Core functionality modules
-│   ├── config_manager.py
-│   ├── service_manager.py
-│   ├── vhost_manager.py
-│   ├── database_manager.py
-│   └── ...
-├── gui/             # GUI components
-│   ├── main_window.py
-│   ├── terminal_widget.py
-│   ├── icon_helper.py
-│   └── ...
-├── templates/       # Configuration templates
-├── utils/           # Utility functions
-└── main.py          # Application entry point
-```
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and contribute to the project.
 
 ## 📄 License
 
