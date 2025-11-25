@@ -1,0 +1,130 @@
+{
+  "web_servers": [
+    {
+      "name": "Apache2",
+      "package": "apache2",
+      "service": "apache2",
+      "description": "Popular web server with .htaccess support",
+      "install_cmd": "apt-get install -y apache2"
+    },
+    {
+      "name": "Nginx",
+      "package": "nginx",
+      "service": "nginx",
+      "description": "High-performance web server and reverse proxy",
+      "install_cmd": "apt-get install -y nginx"
+    }
+  ],
+  "databases": [
+    {
+      "name": "MySQL Server",
+      "package": "mysql-server",
+      "service": "mysql",
+      "description": "Popular relational database",
+      "install_cmd": "apt-get install -y mysql-server"
+    },
+    {
+      "name": "MariaDB Server",
+      "package": "mariadb-server",
+      "service": "mariadb",
+      "description": "MySQL fork with additional features",
+      "install_cmd": "apt-get install -y mariadb-server"
+    },
+    {
+      "name": "PostgreSQL",
+      "package": "postgresql",
+      "service": "postgresql",
+      "description": "Advanced relational database",
+      "install_cmd": "apt-get install -y postgresql postgresql-contrib"
+    },
+    {
+      "name": "Redis",
+      "package": "redis-server",
+      "service": "redis-server",
+      "description": "In-memory data structure store",
+      "install_cmd": "apt-get install -y redis-server"
+    },
+    {
+      "name": "MongoDB",
+      "package": "mongodb",
+      "service": "mongodb",
+      "description": "NoSQL document database",
+      "install_cmd": "apt-get install -y mongodb"
+    }
+  ],
+  "languages": [
+    {
+      "name": "PHP 8.5",
+      "package": "php8.5",
+      "service": "php8.5-fpm",
+      "description": "PHP 8.5 with FPM (latest version from PPA)",
+      "ppa": "ppa:ondrej/php",
+      "install_cmd": "add-apt-repository -y ppa:ondrej/php && apt-get update && apt-get install -y php8.5 php8.5-fpm php8.5-cli php8.5-common php8.5-mysql php8.5-zip php8.5-gd php8.5-mbstring php8.5-curl php8.5-xml php8.5-bcmath"
+    },
+    {
+      "name": "PHP 8.2",
+      "package": "php8.2",
+      "service": "php8.2-fpm",
+      "description": "PHP 8.2 with FPM",
+      "install_cmd": "apt-get install -y php8.2 php8.2-fpm php8.2-cli php8.2-common php8.2-mysql php8.2-zip php8.2-gd php8.2-mbstring php8.2-curl php8.2-xml php8.2-bcmath"
+    },
+    {
+      "name": "PHP 8.1",
+      "package": "php8.1",
+      "service": "php8.1-fpm",
+      "description": "PHP 8.1 with FPM",
+      "install_cmd": "apt-get install -y php8.1 php8.1-fpm php8.1-cli php8.1-common php8.1-mysql php8.1-zip php8.1-gd php8.1-mbstring php8.1-curl php8.1-xml php8.1-bcmath"
+    },
+    {
+      "name": "Node.js v24 (via nvm)",
+      "package": "nodejs",
+      "service": null,
+      "description": "JavaScript runtime with nvm version manager",
+      "install_cmd": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash && export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\" && nvm install 24"
+    },
+    {
+      "name": "Python 3",
+      "package": "python3",
+      "service": null,
+      "description": "Python programming language",
+      "install_cmd": "apt-get install -y python3 python3-pip python3-venv"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "package": "git",
+      "service": null,
+      "description": "Version control system",
+      "install_cmd": "apt-get install -y git"
+    },
+    {
+      "name": "Composer",
+      "package": "composer",
+      "service": null,
+      "description": "PHP dependency manager",
+      "install_cmd": "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer"
+    },
+    {
+      "name": "phpMyAdmin",
+      "package": "phpmyadmin",
+      "service": null,
+      "description": "Web-based MySQL administration",
+      "install_cmd": "apt-get install -y phpmyadmin"
+    },
+    {
+      "name": "Certbot",
+      "package": "certbot",
+      "service": null,
+      "description": "Let's Encrypt SSL certificate tool",
+      "install_cmd": "apt-get install -y certbot"
+    },
+    {
+      "name": "Mailhog",
+      "package": "mailhog",
+      "service": null,
+      "description": "Email testing tool",
+      "install_cmd": "wget -O /usr/local/bin/mailhog https://github.com/mailhog/MailHog/releases/download/v1.0.1/MailHog_linux_amd64 && chmod +x /usr/local/bin/mailhog"
+    }
+  ]
+}

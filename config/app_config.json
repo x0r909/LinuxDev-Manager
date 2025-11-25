@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0",
+    "app_name": "LinuxDev Manager",
+    "settings": {
+        "projects_root": "~/projects",
+        "default_web_server": "apache2",
+        "default_php_version": "8.2",
+        "default_domain_extension": ".test",
+        "terminal_emulator": "gnome-terminal",
+        "code_editor": "code",
+        "auto_start_services": [],
+        "theme": "light"
+    },
+    "paths": {
+        "apache_sites": "/etc/apache2/sites-available",
+        "apache_enabled": "/etc/apache2/sites-enabled",
+        "nginx_sites": "/etc/nginx/sites-available",
+        "nginx_enabled": "/etc/nginx/sites-enabled",
+        "hosts_file": "/etc/hosts",
+        "ssl_certs": "/etc/ssl/certs",
+        "ssl_keys": "/etc/ssl/private"
+    }
+}
